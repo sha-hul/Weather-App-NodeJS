@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(114, 186, 190);
+}
+.card .con1{
+    width: 100%;
+    height: 50%;
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .con1 h1{
+    font-size: 90px;
+}
+.card .con2{
+    background-color: greenyellow\;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
